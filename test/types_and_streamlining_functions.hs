@@ -1,7 +1,3 @@
-import qualified Data.ByteArray as BA
-import Data.ByteString (ByteString)
-import qualified Data.ByteString as B
-
 --defining new data types
 data BookInfo = Book Int String [String]
                 deriving (Show)
